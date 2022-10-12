@@ -1,4 +1,4 @@
-# Group YYY - {Short snappy Title of your project}
+# Group 32 - TFT(League Of Legends) Match Data Analysis
 
 **Please remember to update this section**
 
@@ -21,7 +21,7 @@ This data set is provided by Kaggle, which uploaded by MINYONG SHIN. It is the d
 **Please remember to update this section**
 
 - Jingtao Yang: love skiing, love gyming, love gaming.
-- Person 2: one sentence about you!
+- Jacob Liu: I am an innovative, creative person who loves gaming and hiking.
 - Person 3: one sentence about you!
 
 ## Images
