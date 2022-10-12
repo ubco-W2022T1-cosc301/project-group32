@@ -22,7 +22,7 @@ This data set is provided by Kaggle, which uploaded by MINYONG SHIN. It is the d
 
 - Jingtao Yang: love skiing, love gyming, love gaming.
 - Jacob Liu: I am an innovative, creative person who loves gaming and hiking.
-- Person 3: one sentence about you!
+- Qianyu(Grace) Shang: I love playing video games and playing the guitar.
 
 ## Images
 
