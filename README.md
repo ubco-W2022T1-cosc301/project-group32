@@ -1,8 +1,5 @@
 # Group 32 - TFT(League Of Legends) Match Data Analysis
 
-**Please remember to update this section**
-
-- Your title can change over time.
 
 ## Milestones
 
@@ -30,13 +27,11 @@ This data set is provided by Kaggle, which uploaded by MINYONG SHIN. It is the d
 
 {You can use this area for any images you want to include}
 
-<img src ="images/test.png" width="100px">
+<img src ="010.png" width="100px">
 
 ## References
-
-**Please remember to update this section**
-
-{Add your credits, acknowledgements, references, or citations **including a link to the data source** here}
+The data is provided by kaggle.com  author MINYONG SHIN.
+The link of the data source: https://www.kaggle.com/datasets/gyejr95/tft-match-data
 
 
 
