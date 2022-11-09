@@ -1,6 +1,11 @@
 
 
 def load_and_process(url_or_path_to_csv_file):
+    import numpy as np
+    import pandas as pd
+    import matplotlib.pylab as plt
+    import seaborn as sns
+    import ast
 
     # Method Chain 1 (Load data and deal with missing data)
 
