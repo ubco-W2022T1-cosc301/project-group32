@@ -28,9 +28,11 @@ def load_and_process(url_or_path_to_csv_file):
         for k in clist:
             value=df2.combination_dict[i].get(k)
             df2.at[i,k]=value
-    fdf=pd.DataFrame(columns=clist,index=[0,1,2,3,4,5,6,7,8,9,10])    
+    fdf=pd.DataFrame(columns=clist,index=[0,1,2,3,4,5,6,7,8,9])    
     for col in fdf:
         d=dict(df2[col].value_counts())
         for key,value in d.items():
-            fdf.at[key,col]=value        
+            fdf.at[key,col]=value  
+    
+    fdf=fdf.transpose()
     return fdf 
