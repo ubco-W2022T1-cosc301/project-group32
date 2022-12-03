@@ -6,4 +6,27 @@ Our team members gathering together because our love toward video games. League 
 
 ### **Exploratory Data Analysis**
 
+### Reasearch Question 1: 
+Which champion is the most commonly used in rank Master? And which champion is the least used?<br>
+<br>To answer this question, I used the data from Master data set, took the first 1000 games as sample, to count how many time each champion has been used within the 1000 games.
+<br>
 
+![Q1a](images/Andrew1.png)
+<br>
+<br>
+This is the final dataset. It includes the name of the champions and the requence of them being used. We can see that champion "Ekko" has the highest number, indicate that it is the most used champion by players within the 1000 games.
+<br><br>
+
+![Q1a](images/Andrew2.png)
+<br>
+<br>
+This is the tail of the dataset, we can see that for champion 'Xerath", it was never used within the 1000 games, indicate that it is the least used champion by players
+
+<br><br>
+![Q1a](images/Andrew3.png)
+<br>
+<br>
+This sorted barplot clearly indicate the usage of the champions by times, where Ekko has the longest bar, and Xerath has the shortest.<br>
+So with the analysization, we can conclude that: in "Master" rank, champion "Ekko" is the most commonly used champion, while "Xerath is the least commonly used champion.
+### Reasearch Question 2:
+### Reasearch Question 3:
