@@ -25,8 +25,6 @@ This data set is provided by Kaggle, which uploaded by MINYONG SHIN. It is the d
 
 ## Images
 
-**Please remember to update this section and remove the test image!**
-
 The table below is what our original dataset looks like.
 
 ![EDA1](images/dataset1.png)
