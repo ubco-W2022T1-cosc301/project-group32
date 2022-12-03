@@ -12,7 +12,7 @@ def load_and_process(url_or_path_to_csv_file):
     df1 = (
         pd.read_csv(url_or_path_to_csv_file)
         .dropna()
-        .drop(["gameId","gameDuration","level","lastRound","ingameDuration"], axis="columns")
+        .drop(["gameDuration","level","lastRound","ingameDuration"], axis="columns")
         .loc[lambda x: x['Ranked']==1]
         .reset_index()
         .drop(["index"], axis="columns")
@@ -21,10 +21,12 @@ def load_and_process(url_or_path_to_csv_file):
     # Method Chain 2 (Create new columns, drop others, and do processing)
 
     df2 = (
+        
         df1
-        .assign(combination_dict=lambda df:
-            df['combination'].apply(lambda x: ast.literal_eval(x)))
-        .drop(["combination"], axis="columns")
+        .assign(items_dict=lambda df:
+            df['champion'].apply(lambda x: ast.literal_eval(x)))
+        .drop(["champion"], axis="columns")
+
       )
 
     # Make sure to return the latest dataframe
