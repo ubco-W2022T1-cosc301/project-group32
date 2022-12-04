@@ -1,4 +1,9 @@
 def load_and_process(url_or_path_to_csv_file):
+    import pandas as pd
+    import numpy as np
+    import ast
+    import operator
+    from functools import reduce
     df1=(
     pd.read_csv(url_or_path_to_csv_file)
     .drop(["gameId","gameDuration","level","lastRound","ingameDuration",'combination'], axis="columns")

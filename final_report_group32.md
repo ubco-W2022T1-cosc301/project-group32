@@ -66,7 +66,13 @@ So with the analysization, we can conclude that: in "Master" rank, champion "Ekk
 To answer this question, we had cleaned and processed the raw dataset to desired dataset by following the common steps of a Data Analysis Pipeline. To summary, we just keep the combination for ranked is 1, expand the combination column and count the usage of all combinations at different levels.
 [You can find the full analysis notebook here, including the code and the data here.](notebooks/analysis3.ipynb)
 
+![Q2c](images/Q2c.png)
+
+
+To summarize the overall usage of all combinations I add up all levels of usage for each combination. Now, we can clearly observe that in general "Chrono" is the most popular combination and it is still significantly different from the next popular combination. Also, the 'DarkStar' and 'Cybernetic' are the second and third most commonly used combination in general. However, 'Chrono' may be not the most commonly used combination if we also consider the level of combination. Then I gonna make a heatmap to observe the relation between combination usage and combination level. 
 <br>
+<br>
+
 
 ![Q2a](images/ResearchQuestion2a.png)
 <br>
