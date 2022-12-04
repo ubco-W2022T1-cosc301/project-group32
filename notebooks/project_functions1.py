@@ -1,9 +1,16 @@
+import pandas as pd
+import numpy as np
+import ast
+import operator
+from functools import reduce
+
 def load_and_process(url_or_path_to_csv_file):
-    import pandas as pd
-    import numpy as np
-    import ast
-    import operator
-    from functools import reduce
+    def get_number(lib):
+        num = 0
+        for n in range(0, 1000):
+             if lib.get(n) is not None:
+                num+=1
+        return num
     df1=(
     pd.read_csv(url_or_path_to_csv_file)
     .drop(["gameId","gameDuration","level","lastRound","ingameDuration",'combination'], axis="columns")
@@ -68,6 +75,7 @@ def load_and_process(url_or_path_to_csv_file):
     d_syndra = df2.get('Syndra')
     d_thresh = df2.get('Thresh')
     d_twistedfate = df2.get('TwistedFate')
+    d_velkoz = df2.get('VelKoz')
     d_vi = df2.get('Vi')
     d_wukong = df2.get('WuKong')
     d_xayah = df2.get('Xayah')
@@ -94,4 +102,5 @@ def load_and_process(url_or_path_to_csv_file):
                                   get_number(d_ziggs), get_number(d_zoe)]})
          .sort_values('used_frequence', ascending = False)
         )
-    return finaldf 
+    
+    return finaldf
